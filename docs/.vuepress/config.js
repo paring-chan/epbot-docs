@@ -16,5 +16,8 @@ module.exports = {
                 ]
             }
         ]
+    },
+    plugins: {
+        'vuepress-plugin-smooth-scroll': true
     }
 }
