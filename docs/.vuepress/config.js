@@ -7,8 +7,14 @@ module.exports = {
             { text: '키뮤의 과학실 디스코드', link: 'https://discord.gg/AmuH495BaA' },
         ],
         sidebar: [
-            '/',
-            '/guide'
+            {
+                title: '가이드',
+                collapsable: false,
+                children: [
+                    ['/guide/', '홈'],
+                    ['/guide/fish', '낚시'],
+                ]
+            }
         ]
     }
 }
