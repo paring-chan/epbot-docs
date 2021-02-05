@@ -4,4 +4,3 @@ heroImage: https://media.discordapp.net/attachments/786860960240762890/803359745
 actionText: 도움말 →
 actionLink: /guide/
 ---
-'# Hello VuePress'
